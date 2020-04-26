@@ -37,7 +37,7 @@ public class UserInterface extends JFrame{
 
     public UserInterface(){
         add(rootPanel);
-        setTitle("This is my first JFrame App");
+        setTitle("Programación III - UTN - Efrain Cettour");
         setSize(1000,500);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
