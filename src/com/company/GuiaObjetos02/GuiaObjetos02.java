@@ -13,9 +13,7 @@ import java.util.ArrayList;
 public class GuiaObjetos02 {
 
     public static void run(String[] args) {
-        //consigna01();
-        //consigna02();
-        consigna03();
+
     }
 
     public static void consigna01(){

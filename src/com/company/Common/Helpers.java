@@ -1,4 +1,4 @@
-package com.company.GuiaObjetos02.Common;
+package com.company.Common;
 
 import java.nio.charset.Charset;
 import java.util.Random;

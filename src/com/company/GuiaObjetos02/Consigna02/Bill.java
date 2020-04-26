@@ -1,10 +1,6 @@
 package com.company.GuiaObjetos02.Consigna02;
 
-import com.company.GuiaObjetos02.Common.AppParameters;
-import com.company.GuiaObjetos02.Common.Helpers;
 
-
-import java.lang.reflect.Array;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.UUID;

@@ -1,12 +1,19 @@
 package com.company;
+import com.company.UserInterface.UserInterface;
 
-import com.company.GuiaObjetos01.GuiaObjetos01;
-import com.company.GuiaObjetos02.GuiaObjetos02;
+import javax.swing.*;
 
 public class Main {
 
-    public static void main(String[] args) {
-        //GuiaObjetos01.run(args);
-        GuiaObjetos02.run(args);
+    public static void main(String[] args) throws ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {
+        UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+
+        SwingUtilities.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                UserInterface myInterface = new UserInterface();
+                myInterface.setVisible(true);
+            }
+        });
     }
 }

@@ -1,7 +1,6 @@
 package com.company.GuiaObjetos02.Consigna02;
 
-import com.company.GuiaObjetos02.Common.AppParameters;
-import com.company.GuiaObjetos02.Common.Helpers;
+import com.company.Common.Helpers;
 
 import java.util.UUID;
 

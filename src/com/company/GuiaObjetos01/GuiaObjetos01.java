@@ -23,8 +23,8 @@ public class GuiaObjetos01 {
         f. Inicializar un objeto Rectángulo con los valores por defecto y verificar. 
         */
 
-        Rectangulo rectangulo = new Rectangulo(20,20);
-        Consigna1(rectangulo);
+
+        Consigna1();
 
         /*Modele el objeto Empleado que posee las siguientes características,
         dni, nombre,  apellido y salario.
@@ -86,7 +86,8 @@ public class GuiaObjetos01 {
 
     }
 
-    private static void Consigna1(Rectangulo rectangulo){
+    public static void Consigna1(){
+        Rectangulo rectangulo = new Rectangulo(20,20);
         System.out.println("-------- Consigna 1 --------\n");
 
         System.out.println("El area es " + rectangulo.GetArea());
@@ -105,7 +106,7 @@ public class GuiaObjetos01 {
         System.out.println();
     }
 
-    private static void Consigna2(){
+    public static void Consigna2(){
         System.out.println("-------- Consigna 2 --------\n");
 
         //a. Inicialice un empleado Carlos Gutiérrez, con dni 23456345 y salario inicial de  25000. 
@@ -121,7 +122,7 @@ public class GuiaObjetos01 {
         System.out.println();
     }
 
-    private static void Consigna3(){
+    public static void Consigna3(){
         System.out.println("-------- Consigna 3 --------\n");
 
         //a. Inicialice el objeto con los atributos necesarios 
@@ -131,7 +132,7 @@ public class GuiaObjetos01 {
         System.out.println();
     }
 
-    private static void Consigna4(){
+    public static void Consigna4(){
         System.out.println("-------- Consigna 4 --------\n");
 
         //1. Inicialice una cuenta con un monto inicial de 15000. 
@@ -149,7 +150,7 @@ public class GuiaObjetos01 {
         System.out.println();
     }
 
-    private static void Consigna5(){
+    public static void Consigna5(){
         System.out.println("-------- Consigna 5 --------\n");
 
         //Instanciar el objeto y probar los métodos creados. 

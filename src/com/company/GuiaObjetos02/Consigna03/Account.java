@@ -1,6 +1,6 @@
 package com.company.GuiaObjetos02.Consigna03;
 
-import com.company.GuiaObjetos02.Common.AppParameters;
+import com.company.Common.AppParameters;
 
 import java.util.ArrayList;
 import java.util.UUID;
